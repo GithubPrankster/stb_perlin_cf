@@ -1,0 +1,162 @@
+{
+	"Identifier": "EXMP",
+	"Dependencies": "",
+	"UK English":
+	{
+		"About": {
+			"Name": "stb_perlin_cf",
+			"Author": "Uneven Prankster",
+			"Copyright": "\u00A9 2019 Unevenmetalic Prankster",
+			"Comment": "Extension made for use of Nothings' stb_perlin.h",
+			"Help": "Help/Example.chm",
+			"URL": "https://www.github.com/nothings/stb"
+		},
+		"ActionMenu": [
+		],
+		"ConditionMenu": [
+		],
+		"ExpressionMenu": [
+			[
+				0,
+				"Basic Noise"
+			],
+			[
+				1,
+				"Ridge Noise"
+			],
+			[
+				2,
+				"Fractal Brownian Motion Noise"
+			],
+			[
+				3,
+				"Turbulence Noise"
+			]
+		],
+		"Actions": [
+		],
+		"Conditions": [
+		],
+		"Expressions": [
+			{
+				"Title": "Noise(",
+				"Returns": "Float",
+				"Parameters": [
+					[
+						"Float",
+						"X Coordinate"
+					],
+					[
+						"Float",
+						"Y Coordinate"
+					],
+					[
+						"Float",
+						"Z Coordinate"
+					]
+				]
+			},
+			{
+				"Title": "RidgeNoise(",
+				"Returns": "Float",
+				"Parameters": [
+					[
+						"Float",
+						"X Coordinate"
+					],
+					[
+						"Float",
+						"Y Coordinate"
+					],
+					[
+						"Float",
+						"Z Coordinate"
+					],
+					[
+						"Float",
+						"Lacunarity"
+					],
+					[
+						"Float",
+						"Gain"
+					],
+					[
+						"Float",
+						"Offset"
+					],
+					[
+						"Integer",
+						"Octaves"
+					]
+				]
+			},
+			{
+				"Title": "FBMNoise(",
+				"Returns": "Float",
+				"Parameters": [
+					[
+						"Float",
+						"X Coordinate"
+					],
+					[
+						"Float",
+						"Y Coordinate"
+					],
+					[
+						"Float",
+						"Z Coordinate"
+					],
+					[
+						"Float",
+						"Lacunarity"
+					],
+					[
+						"Float",
+						"Gain"
+					],
+					[
+						"Integer",
+						"Octaves"
+					]
+				]
+			},
+			{
+				"Title": "TurbNoise(",
+				"Returns": "Float",
+				"Parameters": [
+					[
+						"Float",
+						"X Coordinate"
+					],
+					[
+						"Float",
+						"Y Coordinate"
+					],
+					[
+						"Float",
+						"Z Coordinate"
+					],
+					[
+						"Float",
+						"Lacunarity"
+					],
+					[
+						"Float",
+						"Gain"
+					],
+					[
+						"Integer",
+						"Octaves"
+					]
+				]
+			}
+		],
+		"Properties": [
+		]
+	}
+	/*
+	"German":
+	{},
+	"Japanese":
+	{}*/
+}
